@@ -1,0 +1,25 @@
+Chat {
+  id,
+  actived
+  created_at
+  updated_at
+}
+
+Chat_Users {
+  id,
+  chat_id
+  usuario_id
+  actived
+  created_at
+  updated_at
+}
+
+Mensagem {
+  id,
+  usuario_id
+  chat_id
+  conteudo
+  actived
+  created_at
+  updated_at
+}
